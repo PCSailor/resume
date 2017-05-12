@@ -1,0 +1,42 @@
+{
+    "name": "resume_philip_curtis",
+    "version": "1.0.0",
+    "description": "Angular Version",
+    "main": "server/app.js",
+    "scripts": {
+        "start": "node server/app.js",
+        "test": "node server/app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/PCSailor/resume.git"
+    },
+    "keywords": [
+        "resume"
+    ],
+    "author": "philip curtis",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/PCSailor/resume/issues"
+    },
+    "homepage": "https://github.com/PCSailor/resume#readme",
+    "dependencies": {
+        "@uirouter/angularjs": "^1.0.3",
+        "angular": "^1.6.4",
+        "angular-animate": "^1.6.4",
+        "angular-aria": "^1.6.4",
+        "angular-material": "^1.1.4",
+        "angular-messages": "^1.6.4",
+        "angular-route": "^1.6.4",
+        "angular-xeditable": "^0.7.1",
+        "body-parser": "^1.17.1",
+        "express": "^4.15.2",
+        "grunt": "^1.0.1",
+        "mongodb": "^2.2.26",
+        "mongoose": "^4.9.8",
+        "nodemon": "^1.11.0"
+    },
+    "devDependencies": {
+        "grunt-web-server": "^1.2.3"
+    }
+}
