@@ -1,4 +1,4 @@
-var resumeApp = angular.module('ResumeApp', ['ngRoute']);
+var resumeApp = angular.module('ResumeApp', ['ngRoute']); // ResumeApp declared in index.html
 
 resumeApp.config(['$routeProvider', function($routeProvider) {
     $routeProvider
