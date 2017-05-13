@@ -1,4 +1,3 @@
-console.log("resume.model.js is checked against <Working_ToDoList_AngJS-Mongo>")
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 // NOTE: will prevent a user from ability to dump anything into the db
@@ -17,3 +16,4 @@ mongoose.model( // mongoose model function defining how database info comes in
         collection: 'resume'
     }));
 module.exports = mongoose.model('Resume'); // NOTE: model function calls  mongoose.model-model name
+console.log("resume.model.js is run");
