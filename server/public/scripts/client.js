@@ -1,3 +1,4 @@
+console.log("client.js is run-top");
 var resumeApp = angular.module('ResumeApp', ['ngRoute']); // ResumeApp declared in index.html
 
 resumeApp.config(['$routeProvider', function($routeProvider) {
@@ -16,4 +17,4 @@ resumeApp.config(['$routeProvider', function($routeProvider) {
             redirectTo: 'home'
         })
 }]);
-console.log("client.js is run");
+console.log("client.js is run-bott");

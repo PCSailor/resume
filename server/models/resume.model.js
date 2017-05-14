@@ -4,7 +4,7 @@ var Schema = mongoose.Schema;
 // NOTE: mongoose is to mongo like pg is to SQL
 
 mongoose.connect('mongodb://localhost/resume'); // NOTE: address to db using mongo/mongoose
-console.log('router.get/dbconnection error', err);
+// console.log('dbconnection error', error);
 
 mongoose.model( // mongoose model function defining how database info comes in
     'Resume', // model name
